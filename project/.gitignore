@@ -1,0 +1,58 @@
+# Environment variables - Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project specific
+logs/
+*.log
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+models/saved_models/*
+!models/saved_models/.gitkeep
+
+# Database
+*.db
+.mongo_data/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
+# Docker
+docker-compose.override.yml
+
+# Streamlit
+.streamlit/
+
+# Environment files (don't commit actual .env)
+.env
+.env.local
+.env.*.local
+
+# OS
+Thumbs.db
+.DS_Store
